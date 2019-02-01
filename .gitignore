@@ -1,0 +1,7 @@
+# vim plugins
+nvim/autoload
+nvim/plugged
+nvim/.netrwhist
+
+# powerlevel9k theme
+zsh/.zshrc.d/themes/powerlevel9k

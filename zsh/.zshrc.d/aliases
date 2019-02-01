@@ -1,0 +1,6 @@
+alias lrt='ls -lrt'
+alias nv='nvim -R'
+
+# muscle memory
+alias view='nvim -R'
+alias vim='nvim -R'

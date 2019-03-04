@@ -304,17 +304,17 @@ tmux_conf_theme_status_left=' ❐ #S | ↑#{?uptime_d, #{uptime_d}d,}#{?uptime_h
 tmux_conf_theme_status_right='#{prefix}#{pairing}#{synchronized} #{?battery_status, #{battery_status},}#{?battery_bar, #{battery_bar},}#{?battery_percentage, #{battery_percentage},} , %R , %d %b | #{username}#{root} | #{hostname} '
 
 # pane borders colours:
-tmux_conf_theme_pane_border='#5f5f5f'                   # zenburn black
-tmux_conf_theme_pane_active_border='#a3cbf5'            # zenburn bright blue
+tmux_conf_theme_pane_border='#424242'                   # wryan black
+tmux_conf_theme_pane_active_border='#578ec0'            # wryan bright blue
 
 # status line style
-tmux_conf_theme_message_fg='#5f5f5f'                    # zenburn black
-tmux_conf_theme_message_bg='#f3e4bc'                    # zenburn yellow
+tmux_conf_theme_message_fg='#424242'                    # wryan black
+tmux_conf_theme_message_bg='#8e8fa9'                    # wryan yellow
 tmux_conf_theme_message_attr='bold'
 
 # window current status style
-tmux_conf_theme_window_status_current_fg='#000000'      # black
-tmux_conf_theme_window_status_current_bg='#627383'      # zenburn light blue
+tmux_conf_theme_window_status_current_fg='#424242'      # black
+tmux_conf_theme_window_status_current_bg='#627383'      # wryan light blue
 tmux_conf_theme_window_status_current_attr='bold'
 tmux_conf_theme_window_status_current_format='#I #W#{?window_zoomed_flag,🔍,}'
 
@@ -322,13 +322,13 @@ tmux_conf_theme_window_status_current_format='#I #W#{?window_zoomed_flag,🔍,}'
 tmux_conf_theme_window_status_last_fg='#627383'         # zenburb light blue
 
 # status left style
-tmux_conf_theme_status_left_fg='#5f5f5f,#5f5f5f,#e2e2d5'  # zenburn black, black , white
-tmux_conf_theme_status_left_bg='#f3e4bc,#e4a1cd,#627383'  # zenburn yellow, pink, light blue
+tmux_conf_theme_status_left_fg='#424242,#424242,#9aabb0'  # wryan black, black , white
+tmux_conf_theme_status_left_bg='#8e8fa9,#e4a1cd,#627383'  # wryan yellow, pink, light blue
 tmux_conf_theme_status_left_attr='bold,none,none'
 
 # status right style
-tmux_conf_theme_status_right_fg='#8a8a8a,#e2e2d5,#000000' # zenburn light gray, white, black
-tmux_conf_theme_status_right_bg='#191919,#836362,#e2e2d5' # zenburn dark gray, red, white
+tmux_conf_theme_status_right_fg='#8a8a8a,#9aabb0,#424242' # wryan light gray, white, black
+tmux_conf_theme_status_right_bg='#191919,#9e5b78,#9aabb0' # wryan dark gray, red, white
 
 tmux_conf_theme_left_separator_main=' ' # /!\ you don't need to install Powerline
 tmux_conf_theme_left_separator_sub='  ' #   you only need fonts patched with
